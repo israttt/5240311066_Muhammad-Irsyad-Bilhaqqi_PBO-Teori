@@ -44,14 +44,15 @@ Menampilkan data penumpang
    }
 
 6. Berikan penjelasan terhadap hasil penerapan polimorfisme dan abstract pada program anda. 
-   - Polimorfisme : 
-	  Penumpang p;
+   - Polimorfisme :
+     
+     Penumpang p;
 
-Satu variabel bisa:
-   - Objek Reguler
-   - Objek VIP
-Method yang dipanggil berbeda tergantung objeknya
+   Satu variabel bisa:
+     - Objek Reguler
+     - Objek VIP
+   Method yang dipanggil berbeda tergantung objeknya
 
-Abstract:
-   - Class Penumpang hanya sebagai kerangka
-   - Detail harga ditentukan subclass
+   Abstract:
+     - Class Penumpang hanya sebagai kerangka
+     - Detail harga ditentukan subclass
