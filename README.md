@@ -10,19 +10,13 @@ Overloading, Overriding, Abstrak
 SOAL
 1.	Lengkapi program di atas tanpa mengubah struktur kelas.
 Full Kode Program:
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package pbo2;
 
-/**
- *
- * @author irsyad
- */
 import java.util.Scanner;
 
 // ================= CLASS ABSTRAK =================
+
 abstract class Penumpang {
     protected String nama;
     protected String noTiket;
@@ -50,6 +44,7 @@ abstract class Penumpang {
 }
 
 // ================= REGULER =================
+
 class PenumpangReguler extends Penumpang {
     public PenumpangReguler(String nama, String noTiket) {
         super(nama, noTiket);
@@ -63,6 +58,7 @@ class PenumpangReguler extends Penumpang {
 }
 
 // ================= VIP =================
+
 class PenumpangVIP extends Penumpang {
     public PenumpangVIP(String nama, String noTiket) {
         super(nama, noTiket);
@@ -76,11 +72,13 @@ class PenumpangVIP extends Penumpang {
 }
 
 // ================= INPUT =================
+
 class InputPenumpang {
     protected Scanner input = new Scanner(System.in);
 }
 
 // ================= MAIN =================
+
 public class main1 {
     public static void main(String[] args) {
 
