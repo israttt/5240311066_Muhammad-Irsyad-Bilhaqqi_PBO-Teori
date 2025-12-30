@@ -107,46 +107,45 @@ public class main1 {
 
 2.	Terapkan:
 Abstraksi pada class Penumpang : 
-- abstract class Penumpang
+   - abstract class Penumpang
 Overriding pada method hitungHargaTiket() : 
-- @Override public double hitungHargaTiket()
+   - @Override public double hitungHargaTiket()
 Overloading pada method tampilkanData() : 
-- public void tampilkanData() , public void tampilkanData(String tipe)
+   - public void tampilkanData() , public void tampilkanData(String tipe)
 
 3.	Gunakan Scanner untuk menerima input data penumpang.
-- Scanner input = new Scanner(System.in);
+   - Scanner input = new Scanner(System.in);
 
 4.	Buat class Main sendiri untuk:
 Mengambil input pengguna : 
-- InputPenumpang ip = new InputPenumpang();
+   - InputPenumpang ip = new InputPenumpang();
 Membuat objek Penumpang
-- Penumpang p;
+   - Penumpang p;
 
-if (pilihan == 1) { 
-    p = new PenumpangReguler(nama, noTiket);
-} else {
-    p = new PenumpangVIP(nama, noTiket);
-}
+   if (pilihan == 1) { 
+      p = new PenumpangReguler(nama, noTiket);
+   } else {
+      p = new PenumpangVIP(nama, noTiket);
+   }
 Menampilkan data penumpang
-- p.tampilkanData("Reguler"); , p.tampilkanData("VIP");
+   - p.tampilkanData("Reguler"); , p.tampilkanData("VIP");
 
 5.	Program harus dapat membedakan penumpang Reguler dan VIP.
-- if (pilihan == 1) { 
-    p = new PenumpangReguler(nama, noTiket);
-} else {
-    p = new PenumpangVIP(nama, noTiket);
-}
+   - if (pilihan == 1) { 
+      p = new PenumpangReguler(nama, noTiket);
+   } else {
+      p = new PenumpangVIP(nama, noTiket);
+   }
 
 6.	Berikan penjelasan terhadap hasil penerapan polimorfisme dan abstract pada program anda. 
-- Polimorfisme : 
-	Penumpang p;
-
+   - Polimorfisme : 
+	  Penumpang p;
 
 Satu variabel bisa:
-•	Objek Reguler
-•	Objek VIP
+   - Objek Reguler
+   - Objek VIP
 Method yang dipanggil berbeda tergantung objeknya
 
 Abstract:
-•	Class Penumpang hanya sebagai kerangka
-•	Detail harga ditentukan subclass
+   - Class Penumpang hanya sebagai kerangka
+   - Detail harga ditentukan subclass
